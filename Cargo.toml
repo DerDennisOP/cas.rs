@@ -1,6 +1,15 @@
-[package]
-name = "cas"
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
 
-[dependencies]
+[workspace.dependencies]
+cas-io = { path = "crates/cas-io" }
+cas-exec = { path = "crates/cas-exec" }
+num-traits = "0.2"
+num-bigint = "0.4"
+ratatui = "0.30"

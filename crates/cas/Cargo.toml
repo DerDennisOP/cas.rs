@@ -1,0 +1,9 @@
+[package]
+name = "cas"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cas-io.workspace = true
+cas-exec.workspace = true

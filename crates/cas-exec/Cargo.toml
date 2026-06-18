@@ -1,0 +1,10 @@
+[package]
+name = "cas-exec"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cas-io.workspace = true
+num-traits.workspace = true
+num-bigint.workspace = true
